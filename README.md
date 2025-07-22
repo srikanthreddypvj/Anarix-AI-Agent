@@ -17,10 +17,6 @@ This project goal was to develop an AI-powered agent capable of answering questi
   * Accepts questions via API.
   * Converts them to SQL queries using a local LLM.
   * Retrieves and formats results from a SQL database.
-* (Bonus Features)
-
-  * Visualize query results using charts.
-  * Provide streamed, real-time-like response outputs.
 
 ## ⚙️ Tech Stack
 
@@ -64,6 +60,3 @@ For questions or collaborations:
 * [PVJ Srikanth Reddy](mailto:srikanthreddypvj@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/panduga-venkata-jaya-srikanth-reddy/)
 
----
-
-Let me know if you’d like me to include the folder structure or codebase explanation as well.
