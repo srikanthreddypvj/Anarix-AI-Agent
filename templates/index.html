@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GenAI Ecommerce Agent</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 30px;
+            background-color: #f4f4f4;
+        }
+        h1 { color: #333; }
+        input[type=text] {
+            width: 60%;
+            padding: 12px;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        .result {
+            background: white;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🛒 GenAI Ecommerce Agent</h1>
+    <form method="POST">
+        <input type="text" name="question" placeholder="Ask your sales question..." required>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if sql_query %}
+<div class="result">
+    <h3>🔍 Generated SQL Query:</h3>
+    <pre>{{ sql_query }}</pre>
+</div>
+{% endif %}
+
+
+</body>
+</html>
