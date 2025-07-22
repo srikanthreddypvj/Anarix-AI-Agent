@@ -2,15 +2,13 @@
 
 ## 🔍 Project Overview
 
-This project is built as part of the **GenAI Internship Task - VIT**, where the goal was to develop an AI-powered agent capable of answering questions based on e-commerce datasets. The agent receives natural language questions through an API, translates them into SQL queries, and returns accurate, human-readable responses.
+This project goal was to develop an AI-powered agent capable of answering questions based on e-commerce datasets. The agent receives natural language questions through an API, translates them into SQL queries, and returns accurate, human-readable responses.
 
 ## 📊 Datasets Used
 
 * Product-Level Ad Sales and Metrics
 * Product-Level Total Sales and Metrics
 * Product-Level Eligibility Table
-
-These datasets were structured into SQL tables for efficient querying and interpretation.
 
 ## 🧠 Project Objective
 
@@ -24,13 +22,6 @@ These datasets were structured into SQL tables for efficient querying and interp
   * Visualize query results using charts.
   * Provide streamed, real-time-like response outputs.
 
-## ⚙️ Tech Stack
-
-* **SQL (SQLite/MySQL)** — for data storage and querying.
-* **Python** — for backend and integration.
-* **FastAPI** — to build RESTful endpoints.
-* **LangChain** / **LLM (Local/Lightweight)** — for query understanding and SQL translation.
-* **Matplotlib / Plotly** *(optional)* — for generating graphs.
 
 ## 🚧 Limitations
 
@@ -39,8 +30,6 @@ Due to **hardware constraints** (limited RAM, storage, and processing power on m
 * High-accuracy models (e.g., GPT-4, Mistral-7B) for SQL translation.
 * Advanced chart rendering and real-time streaming.
 * Thorough testing and fine-tuning of edge case queries.
-
-Despite this, I’ve tried to design the architecture in a modular, extensible way so that it can be easily upgraded on better machines.
 
 ## ✅ Example Questions Supported
 
