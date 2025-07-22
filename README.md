@@ -1,7 +1,4 @@
-# Anarix-AI-Agent
-
-
-# AI Agent for E-commerce Data Question Answering
+# Anarix-AI-Agent for E-commerce Data Question Answering
 
 ## 🔍 Project Overview
 
